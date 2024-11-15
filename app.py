@@ -5,8 +5,8 @@ import feffery_leaflet_components as flc
 from server import app
 from config import AppConfig
 
-
 from map import tileslecter
+
 
 # main
 app.layout = html.Div(
