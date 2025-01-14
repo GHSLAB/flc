@@ -2,8 +2,10 @@ class AppConfig:
     # 应用标签页title
     app_title: str = "flc-template"
 
-    port: int = 2001
+    port: int = 8000
 
-    defultCenter: dict = {"lng": 118.5, "lat": 24.8}
+    # 初始地图中心
+    defultCenter: dict = {"lng": 0, "lat": 0}
 
-    zoomLevel: int = 11
+    # 初始缩放级别
+    zoomLevel: int = 8

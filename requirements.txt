@@ -1,2 +1,0 @@
-dash==2.18.1
-feffery_leaflet_components==0.1.0rc7
